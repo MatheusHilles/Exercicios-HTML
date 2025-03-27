@@ -1,0 +1,27 @@
+
+header {
+    width: 100%;
+    font-size: large;
+    background-color: lightblue;
+}
+
+form {
+    background-color: lightgrey;
+    border-color: black;
+}
+
+input[type=submit], input[type=reset] {
+    color: white;
+    background-color: green;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    width: 400px;
+    height: 400px; 
+}
