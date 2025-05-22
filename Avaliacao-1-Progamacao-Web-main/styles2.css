@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.redes-sociais {
+    text-align: center;
+}
+
+.redes-sociais p{
+    font-size: 20px;
+    color: rgb(4, 53, 73);
+    font-weight: bold;
+}
+
+.redes-sociais a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    padding: 50px;
+}
+
+.landing{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.menu-login {
+    text-align: left;
+    gap: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-login li{
+    padding: 10px;
+}
+
+.menu-login ul{
+    list-style-type: none;
+}
+
+.menu-login a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0px;
+    width: 100%
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.secao-login {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0;
+}
+
+.secao-login form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.secao-login form input {
+    padding: 10px;
+    width: 275px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.secao-login form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.secao-login form button:hover {
+    background-color: #0056b3;
+}
+
+.secao-login, .secao-ajuda {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.secao-login, .secao-ajuda li{
+    text-align: left;
+}
