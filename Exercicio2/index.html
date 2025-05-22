@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios HTML/CSS/JS</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- EXERCÍCIO 1 -->
+  <section>
+    <h2>1. Soma e Comparação de Números</h2>
+
+    <input type="number" id="numero1" placeholder="Digite o primeiro número">
+    <input type="number" id="numero2" placeholder="Digite o segundo número">
+    <br><br>
+
+    <button onclick="somarNumeros()">Somar</button>
+    <p id="resultadoSoma"></p>
+
+    <button onclick="compararNumeros()">Comparar</button>
+    <p id="resultadoComparacao"></p>
+  </section>
+
+  <hr>
+
+  <!-- EXERCÍCIO 2 -->
+  <section>
+    <h2>2. Campo de Texto</h2>
+
+    <input type="text" id="campoTexto" oninput="mostrarTextoDigitado()">
+    <button onclick="mostrarTamanhoTexto()">Mostrar Tamanho</button>
+
+    <p id="textoDigitado"></p>
+    <p id="tamanhoTexto"></p>
+  </section>
+
+  <hr>
+
+  <!-- EXERCÍCIO 3 -->
+  <section>
+    <h2>3. Interações com JavaScript</h2>
+
+    <div>
+      <strong>Contador:</strong> <span id="contador">0</span>
+    </div>
+
+    <h3>Comidas Favoritas</h3>
+    <ul id="listaComidas">
+      <li>Pizza</li>
+      <li>Lasanha</li>
+      <li>Sushi</li>
+      <li>Churrasco</li>
+      <li>Açaí</li>
+    </ul>
+
+    <h3>Caixa com Efeito Hover</h3>
+    <div class="caixa-hover">Passe o mouse aqui</div>
+
+    <h3>Tabela</h3>
+    <table>
+      <tr><td>1</td><td>2</td><td>3</td></tr>
+      <tr><td>4</td><td>5</td><td>6</td></tr>
+      <tr><td>7</td><td>8</td><td>9</td></tr>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
